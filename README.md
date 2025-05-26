@@ -229,5 +229,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  Made with ❤️ by the CodePirates at Hackathon at IIT Gandhinagar 2025
+  Made By the CodePirates at Hackathon at IIT Gandhinagar 2025
 </div>
