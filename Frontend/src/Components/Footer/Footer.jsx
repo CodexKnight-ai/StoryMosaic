@@ -55,7 +55,7 @@ function Footer() {
 
   return (
     <footer className="bg-gradient-to-b from-slate-900 to-black text-white relative mt-auto z-0">
-      <div className="relative z-20 w-[90%] mx-auto px-4 sm:px-6 md:px-8 pt-16 sm:pt-20 md:pt-24 pb-8 border-t border-purple-500/20">
+      <div className="relative z-20 w-[90%] mx-auto px-4 sm:px-6 md:px-8 pt-16 sm:pt-20 md:pt-12 pb-8 border-t border-purple-500/20">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand Section */}
           <div className="lg:col-span-1 flex flex-col items-center sm:items-start">
