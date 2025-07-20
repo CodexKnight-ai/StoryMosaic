@@ -1,4 +1,4 @@
-# StoryMosaic - Collaborative Storytelling Platform
+# StoryMosaic - Collaborative Storytelling Platform.
 
 <div align="center">
 <!--   <img src="./favicon.ico" alt="StoryMosaic Logo" width="200"/> -->
