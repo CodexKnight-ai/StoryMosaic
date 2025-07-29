@@ -32,7 +32,7 @@ function Home() {
       id: 1,
       title: "Real-Time Collaborative Writing",
       description: "Multiple writers can edit simultaneously with live cursor tracking and color-coded contributions, enabling seamless team collaboration.",
-      videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
+      videoUrl: "/a.jpg",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
@@ -43,7 +43,7 @@ function Home() {
       id: 2,
       title: "Reader Engagement & Voting",
       description: "Interactive voting system where readers influence story direction, creating dynamic and engaging narrative experiences.",
-      videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
+      videoUrl: "/a.jpg",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -54,7 +54,7 @@ function Home() {
       id: 3,
       title: "Role-Based Access Control",
       description: "Granular permission system with defined roles for Authors, Editors, Reviewers, and Readers ensuring organized collaboration.",
-      videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
+      videoUrl: "/a.jpg",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
@@ -65,7 +65,7 @@ function Home() {
       id: 4,
       title: "AI-Powered Story Templates",
       description: "Intelligent templates and writing assistance powered by advanced AI to help structure and enhance your narratives.",
-      videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
+      videoUrl: "/a.jpg",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
@@ -76,7 +76,7 @@ function Home() {
       id: 5,
       title: "Export & Publishing Options",
       description: "Professional export capabilities to PDF, eBook formats, and integration with major publishing platforms.",
-      videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
+      videoUrl: "/a.jpg",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -287,19 +287,19 @@ function Home() {
                     muted
                     playsInline
                   >
-                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+                    <source src="/video.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                   {/* Video Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
                   {/* Play Icon Overlay */}
-                  <div className="absolute inset-0 flex items-center justify-center">
+                  {/* <div className="absolute inset-0 flex items-center justify-center">
                     <div className="w-16 h-16 bg-white/20 backdrop-blur-lg rounded-full flex items-center justify-center">
                       <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M8 5v14l11-7z"/>
                       </svg>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="absolute -inset-4 bg-gradient-to-r from-purple-600/20 to-pink-600/20 rounded-3xl blur-xl -z-10" />
               </motion.div>
